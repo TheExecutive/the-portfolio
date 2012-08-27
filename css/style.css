@@ -97,3 +97,38 @@ section p {
 
 }
 
+ul {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 520px;
+	height: 120px;
+	padding: 10px 0;
+	margin: 15px auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: left;
+	margin: 10px;
+}
+
+.resume {
+	width: 160px;
+	margin: -50px auto;
+	-moz-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fceaca;
+	box-shadow:inset 0px 1px 0px 0px #fceaca;
+	background-color:#ffce79;
+	border:1px solid #eeb44f;
+	display:block;
+	color:#000;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ce8e28;
+}.resume:hover {
+	background-color:#eeaf41;
+}
+
